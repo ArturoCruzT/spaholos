@@ -8,6 +8,15 @@ myApp.controller("principalCtrl", function ($scope, $rootScope) {
         $scope.registro.costo = precio;
         $scope.registro.tiempo = tiempo;
     };
+//------Mapas--------------------//
+    $scope.initContacto = function () {
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {
+            center: new google.maps.LatLng(51.5, -0.2),
+            zoom: 10
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+    }
 
 //------Funciones genéricas------//
     $scope.seleccionarRegistro = function (reg, idElemento) {

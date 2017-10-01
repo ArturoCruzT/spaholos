@@ -8,7 +8,7 @@
     [[Html::style('css/animate/animate.css')]]
     [[Html::style('css/fontawesome/css/font-awesome.min.css')]]
 
-    <title>mexsinf- @yield('titulo')</title>
+    <title>SPA HOlOS REIKI- @yield('titulo')</title>
 
 </head>
 <body>
